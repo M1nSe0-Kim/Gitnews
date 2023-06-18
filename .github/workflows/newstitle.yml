@@ -10,6 +10,7 @@ on:
   # cron표현식
   schedule:
     - cron: "10 * * * *"
+    
 #   push:
 #     branches: [ main ]
 #   pull_request:
