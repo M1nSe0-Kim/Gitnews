@@ -9,7 +9,7 @@ for j in range(1, 100, 10) :
     title = soup.select("a.news_tit")
     for i in title:
         titleList.append(i.text)
-
+        
 dic = {"뉴스제목":titleList}
 df = pd.DataFrame(dic)
 df.to_csv("data.csv", encoding = "utf-8-sig", index = False)
