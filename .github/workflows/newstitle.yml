@@ -42,9 +42,9 @@ jobs:
         python3 news.py
         
     # 커밋
-    - name: commit
+    - name: commits
       run: |
-        git config --global user.email "tntnto928@naver.com" # 사용하는 이메
+        git config --global user.email "tntnto928@naver.com" # 사용하는 이메일
         git config --global user.name "M1nse0-Kim" # 이름
         git add data.csv # 가상환경이 아닌 내가 보고 있는 공간에 파일 저장 가능
         git commit -m "뉴스데이터 수집"
